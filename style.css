@@ -1,0 +1,75 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 2rem;
+    background-color: darkolivegreen;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+table {
+    margin: 2rem 0;
+    width: 100%;
+}
+
+th, td {
+    padding: 0.25rem 0;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    margin: 0.5rem 0 1rem;
+    padding: 0.5rem;
+    font-size: inherit;
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+    width: 100%;
+}
+
+input[type="search"] {
+    flex: 1;
+}
+
+.search-form {
+    display: flex;
+    gap: 10px;
+}
+
+.page-actions {
+    margin: 2rem 0;
+}
