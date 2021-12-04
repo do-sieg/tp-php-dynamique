@@ -140,7 +140,6 @@ if (isset($_POST["go"])) {
     $name = htmlspecialchars(stripslashes(trim($_POST["name"])));
     $age = htmlspecialchars(stripslashes(trim($_POST["age"])));
     $email = htmlspecialchars(stripslashes(trim($_POST["email"])));
-
 }
 ```
 
